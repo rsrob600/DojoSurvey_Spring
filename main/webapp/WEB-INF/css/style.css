@@ -1,0 +1,48 @@
+@charset "ISO-8859-1";
+
+.container{
+	width: 800px;
+	height: auto;
+	margin: 0px auto;
+	margin-top: 150px;
+}
+
+.formBorder {
+	width: 315px;
+	height: 200px;
+	padding: 20px;
+	border-style: solid;
+ 	border-width: 2px;
+ 	margin: auto;
+}
+
+.form {
+    display: table;
+    border-collapse: collapse;
+    padding: 0;
+    margin: 0;
+}
+.form > li {
+    display: table-row;
+}
+.form > li > div {
+    display: table-cell;
+    padding-bottom: 5px;
+}
+.form > li > div:first-child {
+    padding-right: 10px;
+}
+
+.button {
+	background-color: #76A5AF;
+  	border: 1px solid black;
+  	color: white;
+  	padding: 3px 5px;
+  	float: right;
+  	text-align: center;
+  	display: inline-block;
+  	font-size: 14px;
+}
+
+
+
